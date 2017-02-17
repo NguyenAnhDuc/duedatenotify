@@ -5,6 +5,7 @@
  */
 package backup;
 
+import crm.EditLoan;
 import crm.Add_Loan;
 import crm.Home;
 import crm.Loan_details;
@@ -196,7 +197,7 @@ public class customer_details extends javax.swing.JFrame {
         // TODO add your handling code here:
         this.setVisible(false);
         this.dispose();
-        Sell frame = new Sell();
+        EditLoan frame = new EditLoan();
         frame.setDefaultCloseOperation( EXIT_ON_CLOSE );
         frame.pack();
         frame.setVisible(true);

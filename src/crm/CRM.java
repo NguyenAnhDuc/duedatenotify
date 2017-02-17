@@ -29,10 +29,10 @@ public class CRM {
         // TODO code application logic here
         //Login frame = new Login();
         //Product_details frame = new Product_details();
-//        Add_Loan frame = new Add_Loan();
-//        frame.setDefaultCloseOperation( EXIT_ON_CLOSE );
-//        frame.pack();
-//        frame.setVisible(true);
+        Home frame = new Home();
+        frame.setDefaultCloseOperation( EXIT_ON_CLOSE );
+        frame.pack();
+        frame.setVisible(true);
         
         ArrayList columnNames = new ArrayList();
         ArrayList data = new ArrayList();
